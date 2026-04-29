@@ -20,11 +20,12 @@ mysql:
       );
 
   service:
-    replicas: 2
     port: 3306
 
   statefulSet:
 
+    replicas: 2
+  
     image:
       repo: mysql
       version: 9.7.0

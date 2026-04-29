@@ -1,9 +1,6 @@
 common:
   namespace: todoapp
 
-dependencies:
-- name: mysql
-
 todoapp:
 
   secrets:
